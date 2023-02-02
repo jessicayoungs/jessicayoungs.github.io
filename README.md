@@ -9,8 +9,8 @@
 - JS
 
 ## In-Class Assignments
-- [ICA1] (file:///Users/jessicayoungs/Downloads/Copy%20of%20ICA1%20--%20How%20to%20Search%20[HTML]%20(Week%201)%20(2).pdf)
-- ICA2
+- [ICA1] (ica/ica1.pdf)
+- [ICA2] (ica/ica2.pdf)
 - ICA3
 - ICA4
 - ICA5
@@ -26,8 +26,8 @@
 - ICA15
 
 ## Weekly Assignments
-- [WA1] (/Users/jessicayoungs/Documents/GitHub/jessicayoungs2.github.io/wa/wa1.html)
-- WA2
+- [WA1] (wa/wa1.html)
+- [WA2] (wa/wa2.html)
 - WA3
 - WA4
 - WA5
