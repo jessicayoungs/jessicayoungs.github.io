@@ -4,15 +4,15 @@
 ### ATLS2200
 
 ## Projects
-- HTML
+- [HTML] (http://jessicayoungs.github.io/html-midterm/page5.html)
 - CSS
 - JS
 
 ## In-Class Assignments
-- [ICA1] (http://https://jessicayoungs.github.io/ica/ica1.pdf)
+- [ICA1] (http://jessicayoungs.github.io/ica/ica1.pdf)
 - [ICA2] (http://jessicayoungs.github.io/ica/ica2.pdf)
 - [ICA3a] (http://jessicayoungs.github.io/ica/ica3a.html)
-- [ICA3b] (http://https://jessicayoungs.github.io/ica/ica3b.html)
+- [ICA3b] (http://jessicayoungs.github.io/ica/ica3b.html)
 - [ICA4] (http://jessicayoungs.github.io/ica/ica4.html)
 - ICA5
 - ICA6
