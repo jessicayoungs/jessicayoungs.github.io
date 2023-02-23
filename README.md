@@ -15,7 +15,7 @@
 - [ICA3b] (http://jessicayoungs.github.io/ica/ica3b.html)
 - [ICA4] (http://jessicayoungs.github.io/ica/ica4.html)
 - [ICA5] (http://jessicayoungs.github.io/ica/ica5.html)
-- ICA6
+- [ICA6] (http://jessicayoungs.github.io/ica6/ica6-part1.html)
 - ICA7
 - ICA8
 - ICA9
