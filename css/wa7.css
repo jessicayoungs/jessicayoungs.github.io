@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightskyblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: darkgreen;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+
+nav:hover {
+ background-color: lightgreen;
+ transition: 2s;
+}
+
+img{
+    width:20vw;
+    height: 50vh;
+}
+
+#yellow-ball{
+    background-color: yellow;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    animation-name: yellow-ballmove;
+    animation-iteration-count: 500;
+    animation-duration: .5s;
+}
+
+@keyframes yellow-ballmove{
+        0%{right:10vh; top:10vh}
+        50%{right:10vh; top:100vh}
+        100%{right:10vh; top:10vh}
+}
