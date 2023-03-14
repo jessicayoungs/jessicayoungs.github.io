@@ -5,7 +5,7 @@
 
 ## Projects
 - [HTML] (http://jessicayoungs.github.io/html-midterm/page5.html)
-- CSS
+- [CSS] (http://jessicayoungs.github.io)
 - JS
 
 ## In-Class Assignments
