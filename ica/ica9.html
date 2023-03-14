@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice</title>
+    <style>
+        #button {
+            border: 5px solid darkmagenta;
+            border-radius: 20px;
+            background-color: magenta;
+            padding: 35px 50px;
+            width: 250px;
+            font-size: 50px;
+        }
+
+        #joke {
+            border: 5px solid lightslategray;
+            border-radius: 40px;
+            background-color: lightblue;
+            padding: 10px 50px;
+            width: 400px;
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="button">
+        <p>Click me!</p>
+    </div>
+
+    <br>
+
+    <div id="joke">
+        <p>Where did the king keep his armies?</p>
+        <p>Click for answer</p>
+    </div>
+
+    <br>
+    <p>Click on the black box below to see a cute puppy!
+    </p>
+    <br>
+    <img id="myImage" src="../img/blackbox.jpg" alt="Black Box"  width="400" height= "600" onclick="changeImage()">
+
+    <script>
+        //console.log("Hello, World!");
+
+        let btn = document.querySelector("#button");
+        // let declares variable, id you use pound
+        // it is selecting the button div
+        // console.log(btn); this is to check if its set up correctly
+
+        function changeBtn(){
+           // console.log("This worked"); 
+           btn.textContent = "TEST";
+           btn.style.backgroundColor = "darkmagenta";
+           btn.style.border = "2px solid magenta";
+           btn.style.color = "white";
+        }
+
+        btn.addEventListener('click', changeBtn);
+        // if the user clicks on the button run the function changebtn
+
+        let joke = document.querySelector("#joke");
+
+        function changeJoke(){
+            joke.textContent = "In his sleevies";
+        }
+
+        joke.addEventListener('click', changeJoke);
+
+
+        function changeImage() {
+
+        var image = document.getElementById('myImage');
+
+        if (image.src.match("../img/blackbox.jpg")) {
+          image.src = "../img/puppy.png";
+        } else {
+          image.src = "../img/blackbox.jpg";
+        }
+      }
+
+    </script>
+</body>
+</html>
