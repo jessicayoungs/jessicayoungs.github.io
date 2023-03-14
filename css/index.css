@@ -1,0 +1,86 @@
+
+@media (min-width: 1001px) {
+    body {
+      font-size: 18px;
+        background: lightgray;
+        color: #383537;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal; 
+        line-height: 2;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+        border: 5px solid black;
+    }
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal; 
+        font-weight: 400;
+        font-size: 32px;
+    }
+    h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: normal; 
+        font-weight: 400;
+        font-size: 24px;
+    }
+    a:link {
+        color:blue
+    }
+    a:visited {
+        color:black;
+      }
+    a:hover {
+        text-decoration: none; 
+        color: green ;
+      }
+      .jessica {
+        float: right;
+        max-height: 100%;
+}
+}
+  
+@media (max-width: 1000px) {
+      body {
+        font-size: 14px;
+          background: lightgray;
+          color: #383537;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-style: normal; 
+          line-height: 2;
+      }
+  
+      img {
+          max-width: 100%;
+          display: block;
+          border: 5px solid black;
+      }
+      h1 {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-style: normal; 
+          font-weight: 400;
+          font-size: 28px;
+      }
+      h2 {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-style: normal; 
+          font-weight: 400;
+          font-size: 20px;
+      }
+      a:link {
+          color:blue;
+      }
+      a:visited {
+          color:black;
+        }
+      a:hover {
+          text-decoration: none; 
+          color:green ;
+        }
+        .jessica {
+          float: right;
+          max-height: 100%;
+  }
+}
