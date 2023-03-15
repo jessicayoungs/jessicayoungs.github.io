@@ -50,6 +50,12 @@ ul {
             padding: 35px 50px;
             width: 1050px;
 }
+p {
+  border: 2px solid black;
+            background-color: rgb(247, 207, 228);
+            padding: 35px 50px;
+            width: 1300px;
+}
 }
   
 @media (max-width: 1000px) {
@@ -101,6 +107,12 @@ ul {
     border: 2px solid black;
               background-color: rgb(247, 207, 228);
               padding: 35px 50px;
-              width: 1050px;
+              width: 500px;
+  }
+ p {
+    border: 2px solid black;
+              background-color: rgb(247, 207, 228);
+              padding: 35px 50px;
+              width: 600px;
   }
 }
