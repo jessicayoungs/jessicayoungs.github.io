@@ -35,7 +35,7 @@
 - [WA6] (http://jessicayoungs.github.io/wa/wa6.html)
 - [WA7] (http://jessicayoungs.github.io/wa/wa7.html)
 - Wa8
-- WA9
+- [WA9] (http://jessicayoungs.github.io/wa/wa9.html)
 - WA10
 - WA11
 - WA12
