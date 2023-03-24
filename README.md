@@ -17,7 +17,6 @@
 - [ICA5] (http://jessicayoungs.github.io/ica/ica5.html)
 - [ICA6] (http://jessicayoungs.github.io/ica6/ica6-part1.html)
 - [ICA7] (http://jessicayoungs.github.io/ica/ica7.html)
-- ICA8
 - [ICA9] (http://jessicayoungs.github.io/ica/ica9.html)
 - [ICA10] (http://jessicayoungs.github.io/ica/ica10.html)
 - ICA11
@@ -34,7 +33,6 @@
 - [WA5] (http://jessicayoungs.github.io/wa/wa5.html)
 - [WA6] (http://jessicayoungs.github.io/wa/wa6.html)
 - [WA7] (http://jessicayoungs.github.io/wa/wa7.html)
-- Wa8
 - [WA9] (http://jessicayoungs.github.io/wa/wa9.html)
 - WA10
 - WA11
