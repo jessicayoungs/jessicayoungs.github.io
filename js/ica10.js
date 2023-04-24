@@ -14,7 +14,7 @@ function displayMessage(msgText, msgType) {
     panel.appendChild(closeBtn);
     
     closeBtn.addEventListener('click', () => panel.parentNode.removeChild(panel));
-    
+
     if (msgType === 'warning') {
       msg.style.backgroundImage = 'url(../img/warning.png)';
       panel.style.backgroundColor = 'red';
