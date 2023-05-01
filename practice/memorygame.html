@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <style>
+      .card {
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gameBoard"></div>
+    <script>
+      // Shuffle function from http://stackoverflow.com/a/2450976
+      function shuffle(array) {
+        let currentIndex = array.length, temporaryValue, randomIndex;
+
+        while (currentIndex !== 0) {
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex -= 1;
+          temporaryValue = array[currentIndex];
+          array[currentIndex] = array[randomIndex];
+          array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+      }
+
+      const gameBoard = document.querySelector('#gameBoard');
+      const letters = ['A', 'A', 'B', 'B', 'C', 'C', 'D', 'D', 'E', 'E', 'F', 'F', 'G', 'G', 'H', 'H'];
+      let flippedCards = [];
+      let matchedCards = [];
+
+      // Shuffle the array of letters
+      shuffle(letters);
+
+      // Create the cards and add them to the game board
+      for (let i = 0; i < letters.length; i++) {
+        const card = document.createElement('div');
+        card.classList.add('card');
+        card.dataset.letter = letters[i];
+        card.textContent = letters[i];
+        gameBoard.appendChild(card);
+
+        // Add event listener to flip the card when clicked
+        card.addEventListener('click', function() {
+          // Check if the card is already flipped or matched
+          if (card.classList.contains('flipped') || matchedCards.includes(card)) {
+            return;
+          }
+
+          // Flip the card and add it to the flippedCards array
+          card.classList.add('flipped');
+          flippedCards.push(card);
+
+          // Check if two cards are flipped
+          if (flippedCards.length === 2) {
+            // Disable clicking on other cards
+            gameBoard.classList.add('no-click');
+
+            // Check if the two flipped cards match
+            if (flippedCards[0].dataset.letter === flippedCards[1].dataset.letter) {
+              // Add the cards to the matchedCards array
+              matchedCards.push(flippedCards[0]);
+              matchedCards.push(flippedCards[1]);
+
+              // Clear the flippedCards array
+              flippedCards = [];
+
+              // Enable clicking on other cards
+              gameBoard.classList.remove('no-click');
+            } else {
+              // Wait for 1 second and then flip the cards back over
+              setTimeout(function() {
+                flippedCards[0].classList.remove('flipped');
+                flippedCards[1].classList.remove('flipped');
+
+                // Clear the flippedCards array
+                flippedCards = [];
+
+                // Enable clicking on other cards
+                gameBoard.classList.remove('no-click');
+              }, 1000);
+            }
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
